@@ -1,0 +1,30 @@
+{
+  "name": "acme_hr-directory",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Awall26/acme_hr-directory.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Awall26/acme_hr-directory/issues"
+  },
+  "homepage": "https://github.com/Awall26/acme_hr-directory#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "morgan": "^1.10.0",
+    "pg": "^8.14.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
